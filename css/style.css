@@ -1,0 +1,67 @@
+:root {
+	--vs:  'Vast Shadow';
+}
+
+body {
+	background-image: url('https://unsplash.it/g/1920/1080?blur&image=23');
+}
+
+body p{
+ margin: 0 auto;
+}
+
+#name {
+	color:  #eee;
+	font-family:  var(--vs);
+	font-size:  6rem;
+	text-align: center;
+}
+
+.wrapper {
+	display: flex;
+	height: 100%;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.key-master {
+	display: flex;
+	justify-content: space-between;
+	margin:  0 auto;
+	width: 60%;
+}
+
+.key-group {
+	background:rgba(0,0,0,0.4);
+	border:  2px solid #eee;
+	border-radius: 5px;
+	display: flex;
+	flex-direction: column;
+	float:  left;
+	height:  100px;
+	justify-content: center;
+	transition:all .07s;
+	width: 100px;
+}
+
+.key {
+	color:  #eee;
+	font-size:  2rem;
+}
+
+.description {
+	color: #bfae54;
+	font-size: .8rem;
+	text-transform: uppercase;
+}
+
+.key, .description {
+	font-family:  var(--vs);
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.playing {
+	border:  2px solid #bfae54;
+	transform: scale(1.1);
+}
